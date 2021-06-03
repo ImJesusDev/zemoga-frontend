@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+body.swal2-shown.swal2-height-auto {
+    height: 100% !important;
+  }
